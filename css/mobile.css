@@ -70,15 +70,45 @@
     src: url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Black.woff2') format('woff2'),
          url('https://cdn.jsdelivr.net/gh/fonts-archive/AppleSDGothicNeo/AppleSDGothicNeo-Black.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'MaruBuri';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquareNeo';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-bRg.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquareNeoBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-cBd.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'NanumSquareNeoExtraBold';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumSquareNeo/NanumSquareNeoTTF-dEb.ttf) format("truetype");
+}
+@font-face {
+    font-family: 'MaruBuriExtraLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf) format("truetype");
+} 
 
+@font-face {
+    font-family: 'MaruBuriLight';
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot);
+    src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf) format("truetype");
+}
 
 #wrapper{ max-width: 1920px; margin: 0 auto; min-width: 320px; font-family:'Apple SD Gothic Neo' ;}
 
 .section1{}
 .section1 .wrap{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(../images/section1_background.png);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(../images/section1_background.png);
     background-position: center center;
-    background-size: 100% auto;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 100px 130px;
     display: flex;
@@ -94,12 +124,13 @@
     color: #fff;
     font-size: 19px;
     font-weight: 800;
+    margin-right: 10px;
 }
 .section1 .wrap .left .title h1{
     width: 270px;
 }
 .section1 .wrap .left .title h1 img{
-    filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(282deg) brightness(111%) contrast(101%);
+    width: 500px;
 }
 .section1 .wrap .left .goal{}
 .section1 .wrap .left .goal h2{
@@ -145,12 +176,12 @@
 }
 .section2 .wrap{
     display: flex;
-    padding: 70px 50px;
+    padding: 70px 0;
     justify-content: center;
     margin-left: 80px;
 }
 .section2 .wrap .left{
-    width: 50%;
+    width: 40%;
     border-right: 1px solid #6d6d6d;
 }
 .section2 .wrap .left h2{
@@ -187,7 +218,7 @@
 .section2 .wrap .middle{
     padding-top: 80px;
     margin: 0 38px;
-    width: 20%;
+    width: 30%;
 }
 .section2 .wrap .middle .main{
     margin-bottom: 35px;
@@ -201,10 +232,12 @@
     margin-bottom: 8px;
 }
 .section2 .wrap .middle .main span:nth-child(2){
-    font-weight: 900;
+    font-family: 'MaruBuri';
+    font-weight: 700;
     font-size: 25px;
 }
 .section2 .wrap .middle .main span:nth-child(3){
+    font-family: 'NanumSquareNeoBold';
     font-weight: 700;
     font-size: 20px;
 }
@@ -219,15 +252,16 @@
     margin-bottom: 8px;
 }
 .section2 .wrap .middle .sub span:nth-child(2){
-    font-weight: 700;
+    font-family: 'NanumSquareNeoExtraBold';
     font-size: 20px;
 }
 .section2 .wrap .middle .sub span:nth-child(3){
-    font-weight: 600;
-    font-size: 18px;
+    font-family: 'MaruBuriLight';
+    font-size: 20px;
 }
 .section2 .wrap .middle .sub span:nth-child(4){
-    font-weight: 300;
+    font-family: 'MaruBuriExtraLight';
+    font-size: 18px;
 }
 .section2 .wrap .middle .color{
     margin-top: 50px;
@@ -242,23 +276,24 @@
     gap: 30px;
     margin-bottom: 30px;
 }
-.section2 .wrap .middle .color .top .blue{
+.section2 .wrap .middle .color .top .red{
     width: 96px ;
     height: 53px;
-    background-color: #3874e1;
+    background-color: #C30E2E;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.section2 .wrap .middle .color .top .blue span{
+.section2 .wrap .middle .color .top .red span{
 }
 .section2 .wrap .middle .color .top .gray{
     width: 96px ;
     height: 53px;
-    background-color: #c6c6c6;
+    background-color: #F3F2E8;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #000;
 }
 .section2 .wrap .middle .color .top .gray span{}
 .section2 .wrap .middle .color .top .white{}
@@ -266,28 +301,31 @@
     display: flex;
     gap: 30px;
 }
+.section2 .wrap .middle .color .bottom .darkgray{
+    width: 96px ;
+    height: 53px;
+    background-color: #575757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section2 .wrap .middle .color .bottom .darkgray span{
+    color: #000;
+}
 .section2 .wrap .middle .color .bottom .white{
     width: 96px ;
     height: 53px;
-    background-color: #fff;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.section2 .wrap .middle .color .bottom .white span{
     color: #000;
 }
-.section2 .wrap .middle .color .bottom .black{
-    width: 96px ;
-    height: 53px;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.section2 .wrap .middle .color .bottom .white span{}
 .section2 .wrap .right{
     border-left: 1px solid #6d6d6d;
     padding: 70px 0px 0 38px;
+    width: 40%;
 }
 .section2 .wrap .right h3{
     font-size: 17px;
