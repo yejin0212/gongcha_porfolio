@@ -376,7 +376,7 @@
         color: #fff;
     }
     .section3 .wrap{
-        padding: 70px 40px;
+        padding: 70px 40px 0 40px;
     }
     .section3 .wrap .top{
         display: flex;
@@ -419,11 +419,12 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 30px;
+        gap: 50px;
     }
     .section3 .wrap .bottom .asis .list p{
         width: 150px;
         height: 150px;
+        padding: 0 20px;
         border-radius: 50%;
         border: 1px solid #fff;
         display: flex;
@@ -446,7 +447,7 @@
     }
     .section3 .wrap .bottom .tobe .list{
         display: flex;
-        gap: 30px;
+        gap: 50px;
         flex-direction: column;
     }
     .section3 .wrap .bottom .tobe .list p{

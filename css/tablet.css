@@ -103,7 +103,7 @@
         src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-Light.ttf) format("truetype");
     }
     
-    #wrapper{ font-family:'Apple SD Gothic Neo' ;}
+    #wrapper{ font-family:'Apple SD Gothic Neo' ; overflow: hidden;}
     .section1 .wrap{
         background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(../images/section1_background.png);
         background-position: center center;
@@ -195,6 +195,7 @@
     }
     .section2 .wrap .left .font{
         margin-bottom: 60px;
+        width: 50%;
     }
     .section2 .wrap .left .font h3{
         font-size: 17px;
@@ -206,6 +207,9 @@
         font-weight: 300;
         line-height: 25px;
         padding-right: 70px;
+    }
+    .section2 .wrap .left .color {
+        width: 50%;
     }
     .section2 .wrap .left .color h3{
         font-size: 17px;
@@ -338,7 +342,7 @@
         font-size: 17px;
         font-weight: 300;
         line-height: 25px;
-        width: 80%;
+        width: 100%;
     }
     
     /* section3 */
